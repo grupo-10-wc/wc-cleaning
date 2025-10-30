@@ -1,0 +1,9 @@
+Campo,Tipo,Formato/Tamanho,Descrição,Anonimização
+SUBMERCADO,text,40,Submercado do SIN: Sudeste (SE), Sul (S), Nordeste (NE) e Norte (N),Não
+PLD_HORA,numeric,(10,2),Preço de Liquidação das Diferenças (R$/MWh) por submercado e hora,Não
+DATAHORA,datetime,YYYY-MM-DD HH:00:00,Data e hora do preço horário (UTC),Não
+4. PLD�,,,,
+Campo�,Tipo�,Formato/Tamanho�,Descri��o�,Anonimiza��o
+SUBMERCADO�,text�,40�,"Representa�os�quatro�submercados�do SIN:�Sudeste�(SE), Sul (S), Nordeste (NE) e Norte (N).�",N�o
+PLD_HORA�,numeric�,"(10,2)�",Pre�o�de�Liquida��o�das�Diferen�as�(R$/MWh)�determinado�por�submercado�e�per�odo�hor�rio.�,N�o
+DATAHORA�,datetime�,YYYY-MM-DD HH:MM:SS�,"Data e hora�do�pre�o�hor�rio,�unificando�as�antigas�colunas�de data e hora.�",N�o

@@ -1,0 +1,64 @@
+Campo,Tipo,Formato/Tamanho,Descrição,Anonimização
+sensor_model,text,100,Modelo do sensor (ex.: Shelly EM, Sonoff Pow R3),Não
+measure_unit,text,20,Unidade original informada pelo dispositivo,Não
+unit,text,10,Unidade canônica (kWh|Wh|W|pct|V|C|A),Não
+device,text,50,Identificador ou nome do dispositivo físico,Não
+location,text,100,Localização anonimizada (hash SHA-256 com SALT),Sim
+data_type,text,30,Tipo de dado coletado (Energia|Potência|Fator de Potência|Tensão|Temperatura|Corrente),Não
+metric,text,20,Métrica canônica (energy|power|power_factor|voltage|temperature|current),Não
+data,numeric,(10,3),Valor numérico registrado pelo sensor,Não
+created_at,datetime,YYYY-MM-DD HH:MM:SS,Data e hora de registro (UTC),Não
+DATAHORA,datetime,YYYY-MM-DD HH:MM:SS,Data/hora unificada (igual a created_at),Não
+1. Sensores�,,,,
+Campo�,Tipo�,Formato/Tamanho�,Descri��o�,Anonimiza��o
+sensor_model�,text�,100�,"Shelly EM
+Sonoff Pow R3
+Fluke 1735
+PZEM-004T
+HMS M21
+CT Clamp",N�o
+measure_unit�,text�,20�,"Energia: kWh
+Pot�ncia: W
+Fator de Pot�ncia: %
+Tens�o: V
+Temperatura: �C
+Corrente: A",N�o
+device�,text�,50�,Identificador�ou�nome�do�dispositivo�f�sico�onde�o sensor�est�instalado.�,N�o
+location�,text�,100�,Localiza��o�geogr�fica�ou��rea�onde�o sensor�est�posicionado.�,Sim
+data_type�,text�,30�,"Tipo de dado coletado
+Energia
+Pot�ncia
+Fator de Pot�ncia
+Tens�o
+Temperatura
+Corrente",N�o
+data�,numeric�,"(10,3)�",Valor�num�rico�registrado�pelo�sensor.�,N�o
+created_at�,datetime�,YYYY-MM-DD HH:MM:SS�,Data e hora de�registro�da�medi��o.�,N�o
+�,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+�,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+�,,,,
+�,,,,
+�,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+�,,,,

@@ -1,0 +1,18 @@
+Campo,Tipo,Formato/Tamanho,Descrição,Anonimização
+DATA,date,YYYY-MM-DD,Data da medição meteorológica,Não
+HORA_UTC,numeric,(2),Hora da observação em UTC,Não
+DATAHORA,datetime,YYYY-MM-DD HH:00:00,Data/hora unificada (UTC) derivada de DATA + HORA_UTC,Não
+TEMP_MAX_HORA_ANT_C,numeric,(5,2),Temperatura máxima registrada na hora anterior (°C),Não
+TEMP_MIN_HORA_ANT_C,numeric,(5,2),Temperatura mínima registrada na hora anterior (°C),Não
+UMID_REL_AR_PCT,numeric,(5,2),Umidade relativa do ar (%),Não
+DIRECAO_VENTO_GRAUS,numeric,(5,1),Direção do vento em graus (0–360),Não
+VELOC_VENTO_MS,numeric,(5,2),Velocidade do vento em metros por segundo (m/s),Não
+2.�Clima�,,,,
+Campo�,Tipo�,Formato/Tamanho�,Descri��o�,Anonimiza��o
+DATA�,date�,YYYY-MM-DD�,Data da�medi��o�meteorol�gica.�,N�o
+HORA_UTC�,numeric�,(2)�,Hora da�observa��o�em�UTC.�,N�o
+TEMP_MAX_HORA_ANT_C�,numeric�,"(5,2)�",Temperatura�m�xima�registrada�na�hora anterior (�C).�,N�o
+TEMP_MIN_HORA_ANT_C�,numeric�,"(5,2)�",Temperatura�m�nima�registrada�na�hora anterior (�C).�,N�o
+UMID_REL_AR_PCT�,numeric�,"(5,2)�",Umidade�relativa�do�ar�(%).�,N�o
+DIRECAO_VENTO_GRAUS�,numeric�,"(5,1)�",Dire��o�do�vento�em�graus�(0�360).�,N�o
+VELOC_VENTO_MS�,numeric�,"(5,2)�",Velocidade�do�vento�em�metros�por�segundo�(m/s).�,N�o

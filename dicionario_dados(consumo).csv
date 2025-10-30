@@ -1,0 +1,15 @@
+Campo,Tipo,Formato/Tamanho,Descrição,Anonimização
+aparelho,text,100,Nome ou tipo do aparelho elétrico,Não
+potencia,numeric,(10,2),Potência nominal do aparelho em watts (W),Não
+dias,numeric,(2),Quantidade de dias por mês em que o aparelho é utilizado,Não
+utilizacao,numeric,(5,2),Tempo médio de uso diário em horas (h),Não
+medida,text,20,Unidade ou categoria do aparelho (ex: iluminação, refrigeração),Não
+consumo,numeric,(10,3),Consumo estimado mensal de energia elétrica em quilowatt-hora (kWh),Não
+3.�Consumo�,,,,
+Campo�,Tipo�,Formato/Tamanho�,Descri��o�,Anonimiza��o
+aparelho,text�,100�,Nome�ou�tipo�do�aparelho�el�trico.�,N�o
+potencia,numeric�,"(10,2)�",Pot�ncia�nominal do�aparelho�em�watts.�,N�o
+dias,numeric�,(2)�,Quantidade�de�dias�por�m�s�em�que�o�aparelho��utilizado.�,N�o
+utilizacao,numeric�,"(5,2)�",Tempo�m�dio�de�uso�di�rio�em�horas.�,N�o
+medida,text�,20�,"Unidade�de�consumo�ou�categoria�do�aparelho�(ex:�ilumina��o,�refrigera��o).�",N�o
+consumo,numeric�,"(10,3)�",Consumo�estimado�mensal de�energia�el�trica�em�quilowatt-hora.�,N�o

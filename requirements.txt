@@ -1,0 +1,7 @@
+boto3
+botocore
+pdfplumber
+pandas
+numpy
+python-dotenv
+requests
